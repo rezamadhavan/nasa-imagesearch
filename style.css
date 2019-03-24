@@ -2,8 +2,8 @@
 body{
   background-color: rgb(82, 85, 86);
   color: rgb(255, 255, 255); /* font color is white */
-  margin: 20px; /*indented on page */
-  font-size: 100px;
+  margin: 5px; /*indented on page */
+  font-size: 25px;
   font-family: "Helvetica Neue";
 }
 
@@ -20,7 +20,7 @@ button{
   background-color: rgb(82, 85, 86);
   border-color: rgb(82, 85, 86); /* border color matches background */
   border-bottom-color: rgb(255, 255, 255); /* bottom border color is white */
-  border-bottom-width: 10px; /* thickness of border at bottom */
+  border-bottom-width: 2.5px; /* thickness of border at bottom */
   border-style: solid; /* removes border shadow */
   outline: none; /* no outline */
   color: rgb(255, 255, 255); /* font color is white */
@@ -29,15 +29,15 @@ button{
 
 
 #searchImage{
-  height: 300px; /* size of search button image */
+  height: 75px; /* size of search button image */
   width: auto;
 }
 
 #slider-range {
     width: 22%;
-    margin-left: 100px;
-    margin-top: 15px; /* adds space above */
-    margin-bottom: 15px; /* adds space at bottom */
+    margin-left: 25px;
+    margin-top: 3.75px; /* adds space above */
+    margin-bottom:3.75px; /* adds space at bottom */
 }
 
 #yearLabel{
@@ -59,9 +59,9 @@ button{
 
 .grid img{
   object-fit: cover; /* crops image */
-  height: 800px;
-  width: 800px;
-  padding: 40px; /* space between images */
+  height: 200px;
+  width: 200px;
+  padding: 10px; /* space between images */
 }
 
 .grid img:hover{
@@ -72,7 +72,7 @@ button{
   display: none; /* hidden when page loads */
   position: fixed; /* stays in  same place */
   z-index: 9999; /* on top of all other page elements */
-  padding-top: 100px; /* space from top */
+  padding-top: 25px; /* space from top */
   left: 0;
   top: 0;
   width: 100%; /* fills window width */
@@ -89,10 +89,10 @@ button{
 
 .close {
   position: absolute; /* stays in same place */
-  top: 15px; /* distance from top margin */
-  right: 35px; /* distance from right margin */
+  top: 3.75px; /* distance from top margin */
+  right: 8.75px; /* distance from right margin */
   color: rgb(255, 255, 255); /* color is white */
-  font-size: 100px; /* size */
+  font-size: 25px; /* size */
   font-weight: bold;
   transition: 0.3s; /* animates when highlighted */
 }
@@ -107,18 +107,18 @@ button{
 .caption {
   margin: auto; /* automatically creates margins */
   display: block; /* displayed with modal */
-  font-size: 50px;
+  font-size: 12.5px;
   width: 80%;
-  max-width: 1200px;
+  max-width: 300px;
   text-align: left; /* centers text */
   color: rgb(204,204,204); /* text color off-white */
-  padding: 10px 0;
-  height: 150px;
+  padding: 2.5px 0;
+  height: 37.5px;
 }
 
 .slider{
   position:relative;
   z-index:2; /* keeps under modal */
-  box-sizing: 5px;
+  box-sizing: 1.25px;
   outline: none; /* no outline */
 }
