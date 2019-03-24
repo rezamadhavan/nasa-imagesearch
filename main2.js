@@ -192,10 +192,10 @@ $( "#slider-range").slider({
     max: 2019,
     values: [ 1920, 2019 ],
     slide: function( event, ui ) {
-      $( "#yearLabel" ).val(ui.values[ 0 ] + "                       " + ui.values[ 1 ] );
+      $( "#yearLabel" ).val(ui.values[ 0 ] + "  -  " + ui.values[ 1 ] );
     }
 });
 
 //ensures that year range label is alwasys correct
 $( "#yearLabel" ).val($( "#slider-range" ).slider( "values", 0 ) +
-  "                       " + $( "#slider-range" ).slider( "values", 1 ) );
+  "  -  " + $( "#slider-range" ).slider( "values", 1 ) );
