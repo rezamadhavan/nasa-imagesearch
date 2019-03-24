@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='icon' href= "favicon.ico">
+    <title>NASA Search</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <table id='searchFunction'>
+        <tr>
+          <left>
+            <input id='input' type = 'search' value='Type to search...' onfocus="this.value = ''" size= '35'>
+            <button id='searchButton'>
+              <img id = 'searchImage' src= 'searchImage.png'>
+            </button>
+          </left>
+        </tr>
+          <tr>
+          <left>
+            <br>
+            <input type='text' id='yearLabel' readonly>
+            <br>
+            <div id='slider-range' class='slider'></div>
+          </left>
+        </tr>
+    </table>
+    <div id = 'table' class='grid'>
+    </div>
+  </body>
+
+<div id='modal1' class='w3-modal' onclick="this.style.display='none'">
+  <span class='close'>&times;</span>
+  <img class='w3-modal-content' id='img1'>
+  <div id= 'caption1' class= 'caption'></div>
+</div>
+
+<div id= 'modal2' class='w3-modal'>
+  <span class='close'>&times;</span>
+  <video controls class='w3-modal-content' id='vid1' style='width:100%'></video>
+  <div id= 'caption2' class= 'caption'></div>
+</div>
+
+  <script src='main2.js'></script>
+</html>
