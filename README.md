@@ -1,7 +1,7 @@
 # nasa-imagesearch
 
 
-App: ______ Github: https://github.com/rezamadhavan/nasa-imagesearch
+App: https://rezamadhavan.github.io/  Github: https://github.com/rezamadhavan/nasa-imagesearch
 
 I built a website that allows users to search the NASA media database by entering a search word (i.e. "Saturn") and refine by year and location (through the search bar). The first 50 results are displayed on the page and they are able to click on them to expand and see metadata for each of the files. For videos, they are also able to play in the expanded view.
 
