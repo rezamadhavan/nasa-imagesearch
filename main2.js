@@ -80,6 +80,11 @@ function display(link, num){
 
 //function called when image or video is clicked on
 function expand(element){
+  //first clear the modals and captions of any previous info
+  document.getElementById('img1').innerHTML = '';
+  document.getElementById('vid1').innerHTML = '';
+  document.getElementById('caption1').innerHTML = '';
+  document.getElementById('caption2').innerHTML = '';
   var num = parseInt(element.id, 10); //get index of image in array
   var file = element //sets initial file to thumbnail image that was clicked on page
   createCaption(num); //passes index as argument to find info for caption
